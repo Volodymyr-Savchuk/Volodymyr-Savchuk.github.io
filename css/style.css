@@ -95,8 +95,12 @@ h2.title {
     text-transform: uppercase;
     margin-top: 73px;
     cursor: pointer;
+    transition: 0.5s all;
 }
-
+.promo .promo_btn:hover{
+    background-image: none;
+    background-color: #f9bf3b
+}
 .more {
     margin-top: 73px;
 }
@@ -239,10 +243,15 @@ img.more_img {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0 auto;
     width: 115px;
     height: 115px;
     background-color: #b4e2ff;
     border-radius: 100%;
+    transition: 0.3s all;
+}
+.finish .finish_wrapper .finish_item .finish_round:hover{
+    background-color: #f9bf3b; 
 }
 
 .finish .finish_wrapper .finish_item .finish_descr {
@@ -253,3 +262,110 @@ img.more_img {
     line-height: 20px;
     text-align: center;
 }
+
+.gift {
+    height: 628px;
+    background-color: #efefef;
+    padding: 86px 0 86px 0;
+}
+
+.gift .gift_img {
+    display: block;
+    margin: 0 auto;
+}
+
+.gift .gift_text {
+    color: #252525;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 38px;
+    text-align: center;
+    margin-top: 42px;
+}
+
+.gift .gift_btn {
+    display: block;
+    width: 313px;
+    height: 72px;
+    margin: 0 auto;
+    margin-top: 52px;
+    box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.18);
+    border: 4px solid rgba(0, 0, 0, 0.11);
+    background-image: linear-gradient(to top, #2798b9 0%, #3ab6da 100%);
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.22);
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.first {
+    height: 515px;
+    padding: 82px 0 64px 0;
+}
+
+.first .first_img {
+    display: block;
+    margin: 0 auto;
+}
+
+.first .first_header {
+    color: #252525;
+    font-size: 30px;
+    line-height: 32px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 37px;
+}
+
+
+.first .first_title {
+    color: #299cbd;
+    line-height: 32px;
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.first .first_subtitle {
+    color: #4a4a4a;
+    font-size: 23px;
+    line-height: 8px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 25px;
+}
+
+footer {
+    height: 166px;
+    background-color: #1a1a1a;
+    padding: 61px 0 69px 0;
+}
+
+.info {
+    width: 377px;
+    height: 36px;
+    color: #888888;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+footer a {
+    text-decoration: underline;
+    color: #888888;
+}
+
+/* button:hover{
+    background-image: none;
+    background-color: #f9bf3b
+} */
+
+
